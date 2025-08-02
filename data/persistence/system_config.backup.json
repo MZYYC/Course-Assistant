@@ -1,0 +1,7 @@
+{
+  "current_strategy": "hybrid",
+  "vector_weight": 0.7,
+  "keyword_weight": 0.3,
+  "use_hybrid_search": true,
+  "last_updated": "2025-08-02T19:07:35.813710"
+}

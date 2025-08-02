@@ -1,0 +1,59 @@
+{
+  "export_info": {
+    "timestamp": "2025-08-02T19:07:35.835298",
+    "version": "1.0.0"
+  },
+  "query_history": [
+    {
+      "id": "b7b5447f-240f-4c03-bca9-6cbb8a94ade3",
+      "timestamp": "2025-08-02T19:07:35.805903",
+      "query": "这是一个测试查询",
+      "answer": "这是测试答案",
+      "sources": [
+        {
+          "source": "test.md",
+          "content": "测试内容"
+        }
+      ],
+      "strategy": "standard",
+      "response_time": 1.5,
+      "success": 1,
+      "error_message": null
+    }
+  ],
+  "document_history": [
+    {
+      "id": "8c6baee5-7a34-4b0a-b2ce-e590b52d0c53",
+      "timestamp": "2025-08-02T19:07:35.809945",
+      "file_path": "/test/document.pdf",
+      "file_name": "document.pdf",
+      "file_size": 1024,
+      "processing_time": 2.3,
+      "success": 1,
+      "error_message": null,
+      "chunk_count": 5,
+      "strategy": "parent_child"
+    }
+  ],
+  "query_statistics": {
+    "total_queries": 1,
+    "successful_queries": 1,
+    "success_rate": 1.0,
+    "avg_response_time": 1.5,
+    "strategy_stats": {
+      "standard": {
+        "count": 1,
+        "avg_response_time": 1.5
+      }
+    },
+    "recent_queries_24h": 1
+  },
+  "system_config": {
+    "current_strategy": "hybrid",
+    "vector_weight": 0.7,
+    "keyword_weight": 0.3,
+    "use_hybrid_search": true,
+    "last_updated": "2025-08-02T19:07:35.813710"
+  },
+  "system_state": {}
+}

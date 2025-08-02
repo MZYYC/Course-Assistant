@@ -1,0 +1,121 @@
+{
+  "component_manager_stats": {
+    "initialization_time": "2025-08-03T01:13:15.303205",
+    "components_created": {
+      "multimodal_llm": "2025-08-03T01:13:15.340937",
+      "parent_child_splitter": "2025-08-03T01:13:34.961597",
+      "embeddings": "2025-08-03T01:13:34.980646",
+      "parent_child_retriever": "2025-08-03T01:14:45.221647",
+      "hybrid_retriever": "2025-08-03T01:14:45.915779",
+      "llm": "2025-08-03T01:14:46.122041"
+    },
+    "component_usage": {
+      "component_manager_init": 1,
+      "create_multimodal_llm": 1,
+      "create_multimodal_chain": 2,
+      "create_parent_child_splitter": 1,
+      "create_embeddings": 1,
+      "create_parent_child_retriever": 1,
+      "create_hybrid_retriever": 1,
+      "create_llm": 1,
+      "save_vector_store": 1
+    },
+    "performance_metrics": {
+      "multimodal_llm": {
+        "total_operations": 2,
+        "total_time": 0.004391670227050781,
+        "avg_time": 0.0021958351135253906,
+        "last_operation": "2025-08-03T01:13:15.342521"
+      },
+      "multimodal_chain": {
+        "total_operations": 2,
+        "total_time": 0.004786252975463867,
+        "avg_time": 0.0023931264877319336,
+        "last_operation": "2025-08-03T01:13:15.342575"
+      },
+      "parent_child_splitter": {
+        "total_operations": 1,
+        "total_time": 0.0002334117889404297,
+        "avg_time": 0.0002334117889404297,
+        "last_operation": "2025-08-03T01:13:34.961690"
+      },
+      "embeddings": {
+        "total_operations": 2,
+        "total_time": 0.00047278404235839844,
+        "avg_time": 0.00023639202117919922,
+        "last_operation": "2025-08-03T01:14:45.916105"
+      },
+      "vector_store": {
+        "total_operations": 5,
+        "total_time": 2.1457672119140625e-06,
+        "avg_time": 4.291534423828125e-07,
+        "last_operation": "2025-08-03T01:15:42.509700"
+      },
+      "parent_child_retriever": {
+        "total_operations": 1,
+        "total_time": 0.01038217544555664,
+        "avg_time": 0.01038217544555664,
+        "last_operation": "2025-08-03T01:14:45.221761"
+      },
+      "hybrid_retriever": {
+        "total_operations": 1,
+        "total_time": 0.6938972473144531,
+        "avg_time": 0.6938972473144531,
+        "last_operation": "2025-08-03T01:14:45.915852"
+      },
+      "llm": {
+        "total_operations": 2,
+        "total_time": 0.00032448768615722656,
+        "avg_time": 0.00016224384307861328,
+        "last_operation": "2025-08-03T01:15:55.431915"
+      },
+      "save_vector_store": {
+        "total_operations": 1,
+        "total_time": 0.002529144287109375,
+        "avg_time": 0.002529144287109375,
+        "last_operation": "2025-08-03T01:17:55.220809"
+      }
+    }
+  },
+  "cleanup_time": "2025-08-03T01:17:55.220814",
+  "timestamp": "2025-08-03T01:17:55.220825",
+  "performance_stats": {
+    "operations_count": {
+      "init_database": 1,
+      "init": 1,
+      "save_document_history": 1
+    },
+    "operation_times": {
+      "init_database": [
+        0.0029222965240478516
+      ],
+      "init": [
+        0.0
+      ],
+      "save_document_history": [
+        0.001613616943359375
+      ]
+    },
+    "last_cleanup": null,
+    "db_size_history": [],
+    "cache_hit_rate": {
+      "hits": 0,
+      "misses": 0
+    },
+    "initialization_time": "2025-08-03T01:13:15.302757"
+  },
+  "health_status": {
+    "db_size_bytes": 155648,
+    "cache_size_bytes": 110,
+    "connection_pool": {
+      "active_connections": 1,
+      "max_connections": 10
+    },
+    "avg_operation_times": {
+      "init_database": 0.0029222965240478516,
+      "init": 0.0,
+      "save_document_history": 0.001613616943359375
+    },
+    "last_health_check": "2025-08-03T01:17:55.221059"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "基于LangChain的学术RAG系统设计与实现",
+  "authors": ["张三", "李四"],
+  "abstract": "本文介绍了一个基于LangChain框架构建的学术检索增强生成（RAG）系统。该系统支持多种文档格式的处理，包括PDF、Word、PowerPoint等，并集成了多模态处理能力。",
+  "keywords": ["RAG", "LangChain", "多模态", "学术文档"],
+  "sections": [
+    {
+      "title": "引言",
+      "content": "随着人工智能技术的发展，检索增强生成（RAG）系统在学术研究和知识管理中的应用越来越广泛。本文提出的系统结合了最新的AI技术，为学术工作者提供了一个强大的文档处理和问答工具。"
+    },
+    {
+      "title": "系统架构",
+      "content": "系统采用模块化设计，主要包括文档加载器、多模态处理器、文本分割器、向量存储、重排序器和生成模型等组件。每个组件都可以独立配置和优化。"
+    },
+    {
+      "title": "实验结果",
+      "content": "在多个学术文档数据集上的实验表明，该系统能够有效处理各种格式的文档，并提供准确的问答服务。混合检索策略显著提高了检索精度。"
+    },
+    {
+      "title": "结论",
+      "content": "本文提出的学术RAG系统为学术工作者提供了一个高效、准确的文档处理和问答解决方案。未来的工作将集中在性能优化和功能扩展上。"
+    }
+  ],
+  "references": [
+    "LangChain: An open-source framework for building applications with LLMs",
+    "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "Multimodal Learning with Transformers"
+  ]
+} 
