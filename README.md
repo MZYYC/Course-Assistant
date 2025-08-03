@@ -71,7 +71,7 @@
    ```
 
 3. **配置API密钥**
-   1. 通过https://www.siliconflow.com/获取用于语言模型的API密钥
+   1. 通过https://www.siliconflow.com/ 获取用于语言模型的API密钥
    
    2. 创建或编辑 `config.py` 文件：
    ```python
