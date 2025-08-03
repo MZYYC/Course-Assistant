@@ -61,8 +61,8 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/yourusername/course-assistant-rag.git
-   cd course-assistant-rag
+   git clone https://github.com/MZYYC/Course-Assistant.git
+   cd Course-Assistant
    ```
 
 2. **安装依赖**
@@ -71,8 +71,9 @@
    ```
 
 3. **配置API密钥**
+   1. 通过https://www.siliconflow.com/获取用于语言模型的API密钥
    
-   创建或编辑 `config.py` 文件：
+   2. 创建或编辑 `config.py` 文件：
    ```python
    # 在config.py中设置您的SiliconFlow API Key
    SILICONFLOW_API_KEY = "your_api_key_here"
@@ -80,7 +81,7 @@
 
 4. **准备课程文档**
    
-   将课程文件放入 `data/documents/` 目录：
+   将课程文件按需求放入 `data/documents/` 目录：
    ```
    data/
    ├── documents/
